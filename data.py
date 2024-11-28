@@ -23,14 +23,14 @@ print(f'Number of entries with "sample": {df_keyword}') #to count the number of 
 df_grouped = df.groupby('Topic').agg({'Student Country':'count', 'Question ID':'count'})
 print(df_grouped)
 
-mat.plot(df['Student Country'], df['Topic'])
+'''mat.plot(df['Student Country'], df['Topic'])
 mat.xlabel ('Topic')
 mat.ylabel('Student Country')
 mat.title('Student Country vs Topic')
-mat.show
+mat.show'''
 
 mat.hist(df['Student Country'], bins=10, edgecolor='black')
 mat.xlabel('Student Country')
-mat.ylabel('Frequency')
+#mat.ylabel('Frequency')
 mat.title('Histogram of Student Country')
 mat.show()

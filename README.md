@@ -11,6 +11,7 @@ This Python script is designed for data analysis and visualization of a CSV data
 To run the script, execute the Python file using Python version 3.9 or higher. The script will load the CSV file, conduct data cleaning and preprocessing, and produce various visualizations to analyze the dataset effectively.
 
 ## Requirements
+*RECOMMENDED*: Use `Anaconda` or `Jupyter` for best experience.
 Python:
 Version 3.9 or higher
 
